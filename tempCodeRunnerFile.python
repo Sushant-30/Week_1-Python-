@@ -1,0 +1,89 @@
+#Strings
+# a="sushant"
+# for i in a:
+#     print(i,end="") 
+#Concatenation +
+# x="every"+"day"
+# print(x)
+#Replication *
+# a=3*"Sushant"
+# print(a)
+
+
+#getting value from user
+#1 x=int(input("Enter a number"))
+# y=int(input("Enter 2 number"))
+# a=x+y
+# print(a)
+#############################
+#2 result=eval(input("Enter a exp"))
+# print(result)
+
+
+#Diffrent ways to print your code
+#1 hello="Starting a new journey today"
+# print("at vdoit techonologies ltd {}".format('hello'))
+#2 a="Welcome {},you are sitting in {}".format("sushant",'building')
+# print(a)
+
+
+#F-strings
+#1 user_name=input("What is your name? ")
+# print(f"Hello {user_name},welcome to python!")
+
+#2 name="sushant"
+# mydict={'name':'sushant'}
+# print(f'my name is {mydict["name"]}')
+
+#3 print(f'Ten time 10 is {10*10}')
+#>>>>>Lists
+#num=[25,26,58,545,45]
+# print(num[0])
+# print(num[2:])
+# print(num[-3])
+#values=[9.6,"sushant",26]
+#print(values)
+# names=["A","b","C","d"]
+# mim=[num,names]
+# print(mim)
+# num.append(87)
+# print(num)
+# print(mim)
+# names.insert(2,100)
+# print(names)
+# del num[2:]
+# print(num)
+# num.extend([23,56,65,44])
+# print(num)
+# num.sort()
+# print(num)
+
+####Tuple
+# a=(34,54,53,67,"abcds",58.5)
+# print(a)
+# print(type(a))
+
+##Sets
+# a={10,20,45,'abcd',4.6}
+# print(a)
+# print(type(a))
+
+##Dictionary
+#1 data={1:"Sy",2:"by",3:'sd'}
+# #print(data[2])
+# print(data.get(5,'Not Found'))
+
+#2 keys=["Sush","Vats","Aak"]
+# values=["Py",'Js','C']
+# data=dict(zip(keys,values))
+# print(data)
+# print(data['Sush'])
+# data['Monu']='Cs'
+# print(data)
+
+##example3
+prog={'JS':'atom','Cs':'Vs','python':['pycharm','sublime'],'Java':{'JSE':'Netbeans','JEE':'Eclipse'}}
+print(prog)
+print(prog['JS'])
+print(prog["python"][1])
+print(prog['Java'])
